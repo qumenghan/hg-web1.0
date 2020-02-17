@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>首页二</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="../lib/layui-v2.5.5/css/layui.css" media="all">
+    <link rel="stylesheet" href="../lib/font-awesome-4.7.0/css/font-awesome.min.css" media="all">
+    <link rel="stylesheet" href="../css/public.css" media="all">
+	<link rel="stylesheet" href="../css/RiskcategorySetting.css">
+	<script src="../lib/layui-v2.5.5/layui.js" charset="utf-8"></script>
+	<script src="../js/RiskcategorySetting.js"></script>
+</head>
+<body>
+<div class="layuimini-container">
+	  <div class="layui-row">
+	    <div class="layui-col-md2 m10">
+	     <div id="test1" class="demo-tree demo-tree-box"></div>
+	    </div>
+	    <div class="layui-col-md9 m10 box-border">
+	      <form class="layui-form" action="">
+			 <div class="layui-form-item">
+			   <label class="layui-form-label">风险类别编号：</label>
+			   <div class="layui-input-inline input-width">
+			     <input type="password" required lay-verify="required" placeholder="001" class="layui-input">
+			   </div>
+			   <label class="layui-form-label">上层风险类别：</label>
+			   <div class="layui-input-inline input-width">
+			     <input type="password" required lay-verify="required" placeholder="风险类别" class="layui-input">
+			   </div>
+			       <div class="layui-input-block">
+			         <input type="checkbox" name="" title="停用" lay-skin="primary"> 
+			       </div>
+			 </div> 
+			  
+	        <div class="layui-form-item">
+	          <label class="layui-form-label">风险类别名称：</label>
+	          <div class="layui-input-block">
+	            <input type="text" name="title" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input">
+	          </div>
+	        </div>
+			
+			<div class="layui-form-item layui-form-text">
+			  <label class="layui-form-label">风险类别描述：</label>
+			  <div class="layui-input-block">
+			    <textarea name="desc" placeholder="请输入内容" class="layui-textarea"></textarea>
+			  </div>
+			</div>
+			
+			<div class="layui-form-item layui-form-text">
+			  <label class="layui-form-label">备注：</label>
+			  <div class="layui-input-block">
+			    <textarea name="desc" placeholder="请输入内容" class="layui-textarea"></textarea>
+			  </div>
+			</div>
+	        
+	        <div class="layui-form-item">
+	          <div class="layui-input-block">
+	            <button class="layui-btn">评估参数</button>
+				<button class="layui-btn">授权部门</button>
+	            
+	          </div>
+	        </div>
+	    </form>
+	    </div>
+	  </div>
+	
+	
+ 
+	
+</div>
+
+
+</body>
+</html>

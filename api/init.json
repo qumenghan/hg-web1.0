@@ -1,0 +1,271 @@
+{
+  "clearInfo": {
+    "clearUrl": "api/clear.json"
+  },
+  "homeInfo": {
+    "title": "首页",
+    "icon": "fa fa-home",
+    "href": "page/welcome-1.html?mpi=m-p-i-0"
+  },
+  "logoInfo": {
+    "title": "logo",
+    "image": "images/logo.png",
+    "href": ""
+  },
+  "menuInfo": {
+    "currency": {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "child": [
+        {
+          "title": "信息化云图",
+          "href": "",
+          "icon": "fa fa-home",
+          "target": "_self",
+          "child": [
+            {
+              "title": "企业安全风险四色图",
+              "href": "page/error.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "火灾报警",
+              "href": "page/error.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "燃气报警",
+              "href": "page/error.html",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+			{
+			  "title": "重大危险源检测",
+			  "href": "page/error.html",
+			  "icon": "fa fa-tachometer",
+			  "target": "_self"
+			}
+          ]
+        },
+        {
+          "title": "风险管理",
+          "href": "page/menu.html",
+          "icon": "fa fa-window-maximize",
+          "target": "_self",
+		  "child": [
+		    {
+		      "title": "风险等级设置",
+		      "href": "page/RiskLevelSetting.html",
+		      "icon": "fa fa-tachometer",
+		      "target": "_self"
+		    },
+		    {
+		      "title": "风险类别设置",
+		      "href": "page/RiskcategorySetting.html",
+		      "icon": "fa fa-tachometer",
+		      "target": "_self"
+		    },
+		    {
+		      "title": "风险识别",
+		      "href": "page/RiskIdentification.html",
+		      "icon": "fa fa-tachometer",
+		      "target": "_self"
+		    },
+		    {
+		      "title": "风险管控",
+		      "href": "page/Riskcontrol.html",
+		      "icon": "fa fa-tachometer",
+		      "target": "_self"
+		    },
+		    {
+		      "title": "安全风险分级管控清单",
+		      "href": "page/RiskControlList.html",
+		      "icon": "fa fa-tachometer",
+		      "target": "_self"
+		    },
+		    {
+		      "title": "危害（有害）因素排查辨识清单",
+		      "href": "page/HarmList.html",
+		      "icon": "fa fa-tachometer",
+		      "target": "_self"
+		    },
+		    {
+		      "title": "安全生产承诺卡",
+		      "href": "page/Commitmentard.html",
+		      "icon": "fa fa-tachometer",
+		      "target": "_self"
+		    },
+		    {
+		      "title": "安全生产应急卡",
+		      "href": "page/EmergencyCard.html",
+		      "icon": "fa fa-tachometer",
+		      "target": "_self"
+		    },
+		    {
+		      "title": "安全生产告知卡",
+		      "href": "page/NotificationCard.html",
+		      "icon": "fa fa-tachometer",
+		      "target": "_self"
+		    }
+		  ]
+        },
+        {
+          "title": "应急管理",
+          "href": "page/setting.html",
+          "icon": "fa fa-gears",
+          "target": "_self",
+		  "child":[
+		  	{
+		  		"title": "预案管理",
+		  		"href": "page/PlanManagement.html",
+		  		"icon": "fa fa-tachometer",
+		  		"target": "_self"
+		  	},
+			{
+				"title": "应急演练计划",
+				"href": "page/DrillPlan.html",
+				"icon": "fa fa-tachometer",
+				"target": "_self"
+			},
+			{
+				"title": "演练记录",
+				"href": "page/DrillRecord.html",
+				"icon": "fa fa-tachometer",
+				"target": "_self"
+			},
+			{
+				"title": "应急物资检查",
+				"href": "page/Inspection.html",
+				"icon": "fa fa-tachometer",
+				"target": "_self"
+			}
+		  ]
+        },
+        {
+          "title": "隐患排查",
+          "href": "page/table.html",
+          "icon": "fa fa-file-text",
+          "target": "_self",
+		  "child":[
+		  	{
+		  		"title": "排查计划",
+		  		"href": "page/InvestigationPlan.html",
+		  		"icon": "fa fa-tachometer",
+		  		"target": "_self"
+		  	},
+		  			{
+		  				"title": "排查记录",
+		  				"href": "page/TroubleshootingRecords.html",
+		  				"icon": "fa fa-tachometer",
+		  				"target": "_self"
+		  			}
+		  ]
+        },
+        {
+          "title": "宣传页",
+          "href": "page/welcome-2.html",
+          "icon": "fa fa-calendar",
+          "target": "_self"
+        }
+      ]
+    },
+    "component": {
+      "title": "组件管理",
+      "icon": "fa fa-lemon-o",
+      "child": [
+        {
+          "title": "图标列表",
+          "href": "page/icon.html",
+          "icon": "fa fa-dot-circle-o",
+          "target": "_self"
+        },
+        {
+          "title": "图标选择",
+          "href": "page/icon-picker.html",
+          "icon": "fa fa-adn",
+          "target": "_self"
+        },
+        {
+          "title": "颜色选择",
+          "href": "page/color-select.html",
+          "icon": "fa fa-dashboard",
+          "target": "_self"
+        },
+        {
+          "title": "下拉选择",
+          "href": "page/table-select.html",
+          "icon": "fa fa-angle-double-down",
+          "target": "_self"
+        },
+        {
+          "title": "文件上传",
+          "href": "page/upload.html",
+          "icon": "fa fa-arrow-up",
+          "target": "_self"
+        },
+        {
+          "title": "富文本编辑器",
+          "href": "page/editor.html",
+          "icon": "fa fa-edit",
+          "target": "_self"
+        },
+        {
+          "title": "省市县区选择器",
+          "href": "page/area.html",
+          "icon": "fa fa-rocket",
+          "target": "_self"
+        }
+      ]
+    },
+    "other": {
+      "title": "其它管理",
+      "icon": "fa fa-slideshare",
+      "child": [
+        {
+          "title": "多级菜单",
+          "href": "",
+          "icon": "fa fa-meetup",
+          "target": "",
+          "child": [
+            {
+              "title": "按钮1",
+              "href": "page/button.html",
+              "icon": "fa fa-calendar",
+              "target": "_self",
+              "child": [
+                {
+                  "title": "按钮2",
+                  "href": "page/button.html",
+                  "icon": "fa fa-snowflake-o",
+                  "target": "_self",
+                  "child": [
+                    {
+                      "title": "按钮3",
+                      "href": "page/button.html",
+                      "icon": "fa fa-snowflake-o",
+                      "target": "_self"
+                    },
+                    {
+                      "title": "表单4",
+                      "href": "page/form.html",
+                      "icon": "fa fa-calendar",
+                      "target": "_self"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "失效菜单",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        }
+      ]
+    }
+  }
+}

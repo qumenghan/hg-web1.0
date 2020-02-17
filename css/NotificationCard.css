@@ -1,0 +1,49 @@
+.layuimini-container,body,html{
+	padding-bottom: 20px;
+}
+.layui-row,.box-border{
+	height: 100%;
+}
+.layui-form-label{
+	padding: 9px 2px !important;
+	width: 70px !important;
+	height: 100%;
+}
+.layui-card{       
+	text-align: center;
+	margin: 0 10px;
+	border: 1px solid #ccc;
+}
+.mt20{
+	margin-top: 20px;
+}
+.layui-card{
+	height:350px;
+}
+.layui-card img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.layui-card span{
+	color: #0000FF;
+	cursor: pointer;
+	margin: 0 5px;
+}
+.icon-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon-center i{
+	font-size: 50px;
+}
+.layui-card-header{
+	border-bottom: 1px solid #ccc;
+	margin: 0 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.waring{
+	color: red;
+}

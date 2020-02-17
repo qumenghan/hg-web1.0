@@ -1,0 +1,37 @@
+.m10{
+	margin: 10px;
+}
+.layui-unselect{
+	/* width: 80%; */
+}
+.layui-form-label-three{
+	    float: left;
+	    display: block;
+	    padding: 9px 0px;
+		width: 80px;
+	    font-weight: 400;
+	    line-height: 20px;
+	    text-align: right;
+}
+.layui-form-item .layui-input-inline{
+	width: 142px;
+}
+.fr{
+	float: right;
+}
+.ml20{
+	margin-right: 60px !important;
+}
+.ml10{
+	margin-left: 8px;
+}
+.mr10{
+	margin-right: 10px;
+}
+.input-content{
+	width: 423px !important;
+/* 	margin-right: 0px !important; */
+}
+.mr0{
+	margin-right: 0px !important;
+}
